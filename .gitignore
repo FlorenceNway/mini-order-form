@@ -7,3 +7,7 @@ debug.log
 Deprecated
 dist
 node_modules
+Steps
+cypress/integration/1-getting-started
+cypress/integration/2-advanced-examples
+note.txt
