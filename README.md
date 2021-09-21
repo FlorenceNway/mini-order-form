@@ -1,5 +1,7 @@
 # Order Form - UI (React) from SH:24#
 
+![multi-step form](/multistep.png?raw=true "Order Form")
+
 ## Description ##
 A Mini order journey to collect some information about users.
 
