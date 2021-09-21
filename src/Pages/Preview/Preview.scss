@@ -1,0 +1,16 @@
+.list {
+    width: 40%;
+    border: 1px solid white;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    ul {
+        list-style: none;
+        padding: 10px;
+        font-size: 25px;
+    }
+}

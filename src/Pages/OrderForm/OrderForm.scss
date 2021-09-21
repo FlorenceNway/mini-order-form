@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.form-wrapper {
+    background-color: #2F2F81;
+    color: white;
+    height: 100vh;
+    
+    form {
+        width: auto;
+        height: auto;
+        border: 1px solid white;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'IBM Plex Sans', sans-serif;
+
+        .question {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+    
+            label {
+                font-size: 1.2em;
+                padding: 15px 0px 10px 0;
+                font-weight: 100;
+            }
+            input {
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 4px;
+                height: 30px;
+                color: white;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            h1 {
+                font-family: 'Playfair Display', serif;
+            }
+
+            .select {
+                margin: 20px 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+    
+                label {
+                    padding: 15px;
+                    margin-bottom: 25px;
+                    color: white;
+                    font-weight: 400;
+                    background-color: #7373a84f;
+                }
+                input[type='radio']{
+                    height: 0;
+                    width: 0;
+                    cursor: pointer;
+                    text-align: center;
+                }
+                label:hover{
+                    background-color: white;
+                    color: #2F2F81;
+                    cursor: pointer;
+                }
+                label:focus-within{
+                    color:  #2F2F81;
+                    font-weight: 600;
+                    background-color:white
+                }
+            }
+    
+            .error {
+                color: red;
+            }
+        }
+    
+        }  
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            button {
+                border: none;
+                background-color: transparent;
+                color: pink;
+                padding: 10px;
+                cursor: pointer;
+            }
+        }
+        .list {
+            h3 {
+
+            }
+        }
+}
+
+@media only screen and (max-width: 600px) {
+    .form-wrapper form {
+      width: 60%;
+    }
+}
