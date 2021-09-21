@@ -36,5 +36,5 @@ A Mini order journey to collect some information about users.
 #### npm i -G cypress-localstorage-commands
 #### npm run cy
 
-### To look at ending testing files
+### To look at end to end testing file
 - cypress/integration/OrderForm
