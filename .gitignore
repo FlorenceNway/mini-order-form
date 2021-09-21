@@ -1,0 +1,9 @@
+.tmp
+.vscode
+Coverage
+Cypress/screenshots
+Cypress/videos
+debug.log
+Deprecated
+dist
+node_modules
