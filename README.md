@@ -1,4 +1,4 @@
-# Order Form - UI (React) from SH:24#
+# Order Form - UI (React)#
 
 ![multi-step form](/multistep.png?raw=true "Order Form")
 
